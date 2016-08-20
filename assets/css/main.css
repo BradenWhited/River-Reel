@@ -2272,6 +2272,10 @@
 			height: 100%;
 		}
 
+		.main.halfscreen {
+			height: 50%;
+		}
+
 		.main.style1 {
 			text-align: center;
 			padding: 3em 0 3em 0;
@@ -2875,7 +2879,7 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/IMG_0016.JPG");
+		background: url("images/overlay.png"), url("../../images/NewHome.JPG");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2885,7 +2889,7 @@
 /* One */
 
 	#projects {
-		background: url("images/overlay.png"), url("../../images/Skyline 2.jpg");
+		background: url("images/overlay.png"), url("../../images/Reflective.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2894,7 +2898,7 @@
 /* Two */
 
 	#reel {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/LightBlur.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2903,7 +2907,7 @@
 /* About */
 
 	#about {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/Downtown.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2912,7 +2916,10 @@
 /* Work */
 
 	#gallery{
-		background-color: #555963;
+		background: url("images/overlay.png"), url("../../images/Gallery.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
 		color: white;
 	}
 
@@ -3358,6 +3365,10 @@
 		/* Main */
 
 			.main.fullscreen {
+				height: auto !important;
+			}
+
+			.main.halfscreen {
 				height: auto !important;
 			}
 
