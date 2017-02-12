@@ -2879,7 +2879,7 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/NewHome.JPG");
+		background: url("images/overlay.png"), url("../../images/NewHome.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
